@@ -3,6 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
+	"os"
 )
 
 func main() {
@@ -23,6 +24,7 @@ func main() {
 	fmt.Printf("id = %d\n", id)
 	fmt.Printf("name = %s\n", name)
 	fmt.Printf("male = %t\n", male)
+	os.Exit(0)
 
 	//输入& 输出
 	//	go run main.go -id=1234 -name="chenjie" -male=true

@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"os"
 )
 
 type Book struct {
@@ -68,6 +69,7 @@ func main() {
 			}
 		}
 	}
+	os.Exit(0)
 
 	//运行结果
 	//[john ada alice]
