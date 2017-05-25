@@ -28,4 +28,5 @@ func main() {
 	// Wait for all HTTP fetches to complete.
 	wg.Wait()
 	fmt.Println("over")
+	//http://www.baiyuxiong.com/?p=1019
 }
