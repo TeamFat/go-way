@@ -6,6 +6,8 @@
 ## 书籍
 ### [深入解析Go](https://tiancaiamao.gitbooks.io/go-internals/content/zh/)
 ### [Go语言圣经](http://books.studygolang.com/gopl-zh/)
+### [Effective Go](https://golang.org/doc/effective_go.html)
+### [Effective Go中文版](https://bingohuang.gitbooks.io/effective-go-zh-en/content/)
 
 ## 项目推荐
 ### [cache2go](https://github.com/muesli/cache2go) 
