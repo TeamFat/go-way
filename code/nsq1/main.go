@@ -17,8 +17,8 @@ var url string
 var url1 string
 
 func init() {
-	flag.StringVar(&url, "url", "127.0.0.1:4150", "nsqd")
-	flag.StringVar(&url1, "url1", "127.0.0.1:4161", "nsqlookupd")
+	flag.StringVar(&url, "url", "127.0.0.1:4150", "nsqd")         //tcp
+	flag.StringVar(&url1, "url1", "127.0.0.1:4161", "nsqlookupd") //http
 
 	flag.Parse()
 }
@@ -52,8 +52,12 @@ func startConsumer() {
 		return nil
 	}))
 	// nsqlookupd
+	//[]string
 	if err := consumer.ConnectToNSQLookupds([]string{url1}); err != nil {
 		log.Fatal(err)
 	}
 	<-consumer.StopChan
+	//更多
+	//http://tleyden.github.io/blog/2014/11/12/an-example-of-using-nsq-from-go/
+	//https://www.yryz.net/post/go-nsq-usage.html
 }
