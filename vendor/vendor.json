@@ -21,6 +21,12 @@
 			"revisionTime": "2017-05-19T13:19:18Z"
 		},
 		{
+			"checksumSHA1": "EOoY9qbCsWnu5FlZZnMKUKkLcMk=",
+			"path": "github.com/astaxie/beego/toolbox",
+			"revision": "cab8458c1c4a5a3b4bf5192922be620e6dede15b",
+			"revisionTime": "2017-05-19T13:19:18Z"
+		},
+		{
 			"checksumSHA1": "P/YMhqTnQl9HbvyC72rBhe/N32I=",
 			"path": "github.com/golang/snappy",
 			"revision": "7db9049039a047d955fe8c19b83c8ff5abd765c7",
