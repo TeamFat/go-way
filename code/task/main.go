@@ -20,6 +20,11 @@ func init() {
 }
 
 func main() {
+	// NewTask(tname string, spec string, f TaskFunc) *Task
+
+	// tname 任务名称
+	// spec 定时任务格式，请参考下面的详细介绍
+	// f 执行的函数 func() error
 	tk1 := toolbox.NewTask("tk1", "0/1 * * * * *", func() error { logs.Info("test"); return nil })
 	toolbox.AddTask("tk1", tk1)
 	toolbox.StartTask()
