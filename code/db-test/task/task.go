@@ -3,7 +3,7 @@ package task
 import (
 	"fmt"
 
-	"github.com/chenjiesuper/learning-golang/code/db-test/db"
+	"github.com/TeamFat/go-way/code/db-test/db"
 	"github.com/garyburd/redigo/redis"
 )
 

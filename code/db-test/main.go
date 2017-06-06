@@ -3,8 +3,8 @@ package main
 import (
 	"time"
 
-	"github.com/chenjiesuper/learning-golang/code/db-test/db"
-	"github.com/chenjiesuper/learning-golang/code/db-test/task"
+	"github.com/TeamFat/go-way/code/db-test/db"
+	"github.com/TeamFat/go-way/code/db-test/task"
 )
 
 func main() {

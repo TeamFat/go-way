@@ -8,7 +8,7 @@
 package routers
 
 import (
-	"github.com/chenjiesuper/learning-golang/code/beeapi/controllers"
+	"github.com/TeamFat/go-way/code/beeapi/controllers"
 
 	"github.com/astaxie/beego"
 )
