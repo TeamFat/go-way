@@ -1,30 +1,31 @@
 package main
 
-import "expvar"
-import "net"
-import "fmt"
-import "net/http"
-
-var (
-    counts = expvar.NewMap("counters")
+import (
+	"expvar"
+	"fmt"
+	"net/http"
 )
 
+var visits = expvar.NewInt("visits")
+
+var stats = expvar.NewMap("tcp")
+var requests, requestsFailed expvar.Int
+
 func init() {
-    counts.Add("a", 10)
-    counts.Add("b", 10)
+	stats.Set("requests", &requests)
+	stats.Set("requests_failed", &requestsFailed)
+}
+
+func handler(w http.ResponseWriter, r *http.Request) {
+
+	visits.Add(1)
+
+	fmt.Fprintf(w, "Hi there, I love %s!", r.URL.Path[1:])
 }
 
 func main() {
-    sock, err := net.Listen("tcp", "localhost:8123")
-    if err != nil {
-        panic("sock error")
-    }
-    go func() {
-        fmt.Println("HTTP now available at port 8123")
-        http.Serve(sock, nil)
-    }()
-    fmt.Println("hello")
-    select {}
+	http.HandleFunc("/", handler)
+	http.ListenAndServe(":1818", nil)
 }
-//https://my.oschina.net/moooofly/blog/826460
+
 //https://orangetux.nl/post/expvar_in_action/
