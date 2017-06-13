@@ -9,6 +9,7 @@ func main() {
 	fmt.Println(s)
 }
 
+//http://studygolang.com/articles/10026
 //全局变量逃逸
 // go run -gcflags '-m -l' main.go
 // # command-line-arguments
