@@ -18,3 +18,4 @@ launch.json
 *.log
 *jd*
 code/beego-api/bapi
+goquery1
