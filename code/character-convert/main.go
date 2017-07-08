@@ -24,4 +24,5 @@ func main() {
 	out.Close()
 	f.Close()
 }
-http://technosophos.com/2016/03/09/go-quickly-converting-character-encodings.html
+
+//http://technosophos.com/2016/03/09/go-quickly-converting-character-encodings.html
