@@ -5,6 +5,7 @@ import "time"
 
 //这个函数会在新的goroutine中运行，执行结束时会给done channel中传入值true
 //注意到中间有sleep了一秒
+
 func worker(done chan bool) {
 	fmt.Print("working...")
 	time.Sleep(time.Second)
