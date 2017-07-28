@@ -15,8 +15,44 @@
 			"revisionTime": "2016-12-24T14:14:13Z"
 		},
 		{
+			"checksumSHA1": "SkoyrWJR3OI+AZ80xbndVye1Gzc=",
+			"path": "github.com/astaxie/beego",
+			"revision": "cab8458c1c4a5a3b4bf5192922be620e6dede15b",
+			"revisionTime": "2017-05-19T13:19:18Z"
+		},
+		{
+			"checksumSHA1": "DPEoKPetckr8n6lCykMu3Po3PAs=",
+			"path": "github.com/astaxie/beego/config",
+			"revision": "cab8458c1c4a5a3b4bf5192922be620e6dede15b",
+			"revisionTime": "2017-05-19T13:19:18Z"
+		},
+		{
+			"checksumSHA1": "iZ7Nlj++9sGGrw8mmYpA9Sm2SbI=",
+			"path": "github.com/astaxie/beego/context",
+			"revision": "cab8458c1c4a5a3b4bf5192922be620e6dede15b",
+			"revisionTime": "2017-05-19T13:19:18Z"
+		},
+		{
+			"checksumSHA1": "+5TpkCiIAd6g6ecRkPbGS/Ivbl8=",
+			"path": "github.com/astaxie/beego/context/param",
+			"revision": "cab8458c1c4a5a3b4bf5192922be620e6dede15b",
+			"revisionTime": "2017-05-19T13:19:18Z"
+		},
+		{
+			"checksumSHA1": "2Zx/H7cxwDneCICsKGGwMH1xnpE=",
+			"path": "github.com/astaxie/beego/grace",
+			"revision": "cab8458c1c4a5a3b4bf5192922be620e6dede15b",
+			"revisionTime": "2017-05-19T13:19:18Z"
+		},
+		{
 			"checksumSHA1": "+MEWMsS4mJ9jNhwfVeyBMpdyVCQ=",
 			"path": "github.com/astaxie/beego/logs",
+			"revision": "cab8458c1c4a5a3b4bf5192922be620e6dede15b",
+			"revisionTime": "2017-05-19T13:19:18Z"
+		},
+		{
+			"checksumSHA1": "WGnti4OYSissIV67mLh9a14lwxk=",
+			"path": "github.com/astaxie/beego/session",
 			"revision": "cab8458c1c4a5a3b4bf5192922be620e6dede15b",
 			"revisionTime": "2017-05-19T13:19:18Z"
 		},
@@ -27,10 +63,83 @@
 			"revisionTime": "2017-05-19T13:19:18Z"
 		},
 		{
+			"checksumSHA1": "wyz5HgdoDurteHhp63m+CwKx7zg=",
+			"path": "github.com/astaxie/beego/utils",
+			"revision": "cab8458c1c4a5a3b4bf5192922be620e6dede15b",
+			"revisionTime": "2017-05-19T13:19:18Z"
+		},
+		{
+			"checksumSHA1": "HH2/aYk2z7YEcNSZBwYTaQEPPq8=",
+			"path": "github.com/bitly/go-simplejson",
+			"revision": "da1a8928f709389522c8023062a3739f3b4af419",
+			"revisionTime": "2017-02-06T15:46:32Z"
+		},
+		{
+			"checksumSHA1": "6X3O3mfvOyiwV2iAb5GjxARs08c=",
+			"path": "github.com/garyburd/redigo/internal",
+			"revision": "95d11dba2d44531bdb8022752b98912baafae03a",
+			"revisionTime": "2017-05-31T16:47:38Z"
+		},
+		{
+			"checksumSHA1": "+YBVO6LI+Rblq8aBd/TSyuqXAkw=",
+			"path": "github.com/garyburd/redigo/redis",
+			"revision": "95d11dba2d44531bdb8022752b98912baafae03a",
+			"revisionTime": "2017-05-31T16:47:38Z"
+		},
+		{
+			"checksumSHA1": "J5eoFmz4tPEJDieNPfCu5WzPF4Y=",
+			"path": "github.com/go-redis/redis",
+			"revision": "18c1db946601fba100ad23e98eb8c04055a2a6cd",
+			"revisionTime": "2017-05-11T14:02:26Z"
+		},
+		{
+			"checksumSHA1": "XNaNH8Q76v20CfLeOPXEkAudIwU=",
+			"path": "github.com/go-redis/redis/internal",
+			"revision": "18c1db946601fba100ad23e98eb8c04055a2a6cd",
+			"revisionTime": "2017-05-11T14:02:26Z"
+		},
+		{
+			"checksumSHA1": "BuzQsdMJMUXm8Zfwtuoz4QUdnZE=",
+			"path": "github.com/go-redis/redis/internal/consistenthash",
+			"revision": "18c1db946601fba100ad23e98eb8c04055a2a6cd",
+			"revisionTime": "2017-05-11T14:02:26Z"
+		},
+		{
+			"checksumSHA1": "pgFOanECYY7qj95cq3730Z3ZDoo=",
+			"path": "github.com/go-redis/redis/internal/hashtag",
+			"revision": "18c1db946601fba100ad23e98eb8c04055a2a6cd",
+			"revisionTime": "2017-05-11T14:02:26Z"
+		},
+		{
+			"checksumSHA1": "Rz9f7s9dLqedXL+p+guhTLY80Yk=",
+			"path": "github.com/go-redis/redis/internal/pool",
+			"revision": "18c1db946601fba100ad23e98eb8c04055a2a6cd",
+			"revisionTime": "2017-05-11T14:02:26Z"
+		},
+		{
+			"checksumSHA1": "YybI5qHM5IZSbBCAEKdg2E8+SH4=",
+			"path": "github.com/go-redis/redis/internal/proto",
+			"revision": "18c1db946601fba100ad23e98eb8c04055a2a6cd",
+			"revisionTime": "2017-05-11T14:02:26Z"
+		},
+		{
+			"checksumSHA1": "blZyJ896pCiBGuD5YJU5XXG95Ps=",
+			"origin": "thor-alarm/vendor/github.com/go-sql-driver/mysql",
+			"path": "github.com/go-sql-driver/mysql",
+			"revision": "46c95e351d51eef5c2a85a51fe6c513410a2f37b",
+			"revisionTime": "2017-07-26T02:51:13Z"
+		},
+		{
 			"checksumSHA1": "P/YMhqTnQl9HbvyC72rBhe/N32I=",
 			"path": "github.com/golang/snappy",
 			"revision": "7db9049039a047d955fe8c19b83c8ff5abd765c7",
 			"revisionTime": "2017-01-19T01:47:23Z"
+		},
+		{
+			"checksumSHA1": "73G9KZC8uD1uey/RaDBaS1l5BXM=",
+			"path": "github.com/malisit/kolpa",
+			"revision": "3fad0ee97bbcad8ee96a86de53e61d929f46464e",
+			"revisionTime": "2017-07-02T19:51:06Z"
 		},
 		{
 			"checksumSHA1": "6Uqtc4JNsdsJTR2mkxQpr1ethXw=",
@@ -45,6 +154,12 @@
 			"revisionTime": "2016-03-25T03:37:39Z"
 		},
 		{
+			"checksumSHA1": "Y+HGqEkYM15ir+J93MEaHdyFy0c=",
+			"path": "golang.org/x/net/context",
+			"revision": "1f9224279e98554b6a6432d4dd998a739f8b2b7c",
+			"revisionTime": "2017-06-29T16:46:45Z"
+		},
+		{
 			"checksumSHA1": "vqc3a+oTUGX8PmD0TS+qQ7gmN8I=",
 			"path": "golang.org/x/net/html",
 			"revision": "da118f7b8e5954f39d0d2130ab35d4bf0e3cb344",
@@ -55,7 +170,37 @@
 			"path": "golang.org/x/net/html/atom",
 			"revision": "da118f7b8e5954f39d0d2130ab35d4bf0e3cb344",
 			"revisionTime": "2017-04-23T14:02:46Z"
+		},
+		{
+			"checksumSHA1": "yZXpQwF49CgXVDRlq4iq1WsD5bk=",
+			"path": "gonum.org/v1/gonum/floats",
+			"revision": "ffd939f8ca292b53f56531f190a8ae1e7cdea92c",
+			"revisionTime": "2017-07-08T04:09:59Z"
+		},
+		{
+			"checksumSHA1": "ZGe3Th3Y1OfTWtg4STEH4rcWr0Y=",
+			"path": "gonum.org/v1/gonum/internal/asm/f64",
+			"revision": "ffd939f8ca292b53f56531f190a8ae1e7cdea92c",
+			"revisionTime": "2017-07-08T04:09:59Z"
+		},
+		{
+			"checksumSHA1": "wKMOHNESQBkHWxoaET39grxzDHU=",
+			"path": "thor-alarm/db",
+			"revision": "46c95e351d51eef5c2a85a51fe6c513410a2f37b",
+			"revisionTime": "2017-07-26T02:51:13Z"
+		},
+		{
+			"checksumSHA1": "mBw8HGmEUsy/T0TKMgMjz0JlMBU=",
+			"path": "thor-alarm/models",
+			"revision": "46c95e351d51eef5c2a85a51fe6c513410a2f37b",
+			"revisionTime": "2017-07-26T02:51:13Z"
+		},
+		{
+			"checksumSHA1": "vhB9CJRiC76ZRUtUZtAs4GGND84=",
+			"path": "thor-alarm/util",
+			"revision": "46c95e351d51eef5c2a85a51fe6c513410a2f37b",
+			"revisionTime": "2017-07-26T02:51:13Z"
 		}
 	],
-	"rootPath": "github.com/chenjiesuper/learning-golang"
+	"rootPath": "github.com/TeamFat/go-way"
 }
