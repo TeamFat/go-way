@@ -1,5 +1,5 @@
 <?php
-
+date_default_timezone_set("Asia/Shanghai");
 class stock{
 
     public static function httpGet($url) { 
@@ -36,15 +36,18 @@ class stock{
     }
 
     public static function postStockInfo($datas, $stockId){
-        $url = "http://localhost:9200/stock/{$stockId}";
+        $url = "http://qcloud.chenjie.info:9200/stock/{$stockId}";
         foreach($datas as $data){
-            $res = self::httpPost($url, $data);
+            $url1 = $url.'/'.strtotime($data['day']);
+            $res = self::httpPost($url1, $data);
             var_dump($res['created']);
         }
     }
 }
 $stockId = 'sh601318';
 $stockId = 'sz002236';
+$stockId = 'sh600516';
+$stockId = 'sz002230';
 $result = stock::getStockInfo($stockId, 5, 10000);
-var_dump($result);
+echo count($result);
 stock::postStockInfo($result, $stockId);
