@@ -1,0 +1,5 @@
+# filename: line.lde
+Line =                                   # Name of the extraction object' type
+  ^'['                                   # The line must start with [
+  Time(string) ']'                       # Take everything as a string for Time right to ']' character
+;
