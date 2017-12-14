@@ -29,4 +29,13 @@ func main() {
 	//初始化时直接指定值
 	n := map[string]int{"foo": 1, "bar": 2}
 	fmt.Println("map:", n)
+
+	//map里元素为slice时候的追加
+	datasX := make(map[float64][]float64)
+	weight := 13.0
+	diff := 1.0
+	base := 9.0
+	datasX[weight-diff] = append(datasX[weight-diff], base)
+	datasX[weight-diff] = append(datasX[weight-diff], base)
+	fmt.Println(datasX)
 }
