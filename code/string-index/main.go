@@ -488,5 +488,5 @@ func main() {
 	end := strings.Index(str, "</SendPay>")
 	res := Substr(str, start, end)
 	fmt.Println(res)
-	fmt.Println(string([]byte(res)[0]))
+	fmt.Println(string([]byte(res)[9:11]) == "10")
 }
