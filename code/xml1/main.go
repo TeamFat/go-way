@@ -7,7 +7,17 @@ import (
 )
 
 type Order struct {
-	SendPay string
+	SendPay    string
+	TheExtTags TheExtTags
+}
+
+type TheExtTags struct {
+	ExtTagPair []ExtTagPair
+}
+
+type ExtTagPair struct {
+	Key string
+	Val string
 }
 
 func main() {
@@ -482,6 +492,29 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	log.Println(order.SendPay)
+	//log.Println(order.SendPay)
+	//log.Println(order.TheExtTags)
+	for _, value := range order.TheExtTags.ExtTagPair {
+		log.Println(value.Key, value.Val)
+		if value.Key == "xxx" && value.Val == "xxx" {
+			break
+		}
+	}
+
+	for _, value := range order.TheExtTags.ExtTagPair {
+		log.Println(value.Key, value.Val)
+		if value.Key == "xxx" && FindFromSlice(value.Val, []string{"xxx", "xxxx", "xxxxx"}) {
+			break
+		}
+	}
 	//http://blog.studygolang.com/2012/12/%E6%A0%87%E5%87%86%E5%BA%93-xml%E5%A4%84%E7%90%86%EF%BC%88%E4%B8%80%EF%BC%89/
+}
+
+func FindFromSlice(str string, strSlice []string) bool {
+	for _, st := range strSlice {
+		if str == st {
+			return true
+		}
+	}
+	return false
 }
