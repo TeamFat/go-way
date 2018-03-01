@@ -9,6 +9,7 @@ import (
 type Order struct {
 	SendPay    string
 	TheExtTags TheExtTags
+	ParentId   int64
 }
 
 type TheExtTags struct {
@@ -494,6 +495,7 @@ func main() {
 	}
 	//log.Println(order.SendPay)
 	//log.Println(order.TheExtTags)
+	log.Println(order.ParentId > 0)
 	for _, value := range order.TheExtTags.ExtTagPair {
 		log.Println(value.Key, value.Val)
 		if value.Key == "xxx" && value.Val == "xxx" {
