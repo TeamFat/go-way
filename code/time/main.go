@@ -12,6 +12,7 @@ func main() {
 
 	//格式化为字符串,tm为Time类型
 	tm := time.Unix(timestamp, 0)
+	fmt.Printf("%d-%d-%d %02d:%02d:%02d\n", tm.Year(), tm.Month(), tm.Day(), tm.Hour(), tm.Minute(), tm.Second())
 	fmt.Println(tm.Format("2006-01-02 03:04:05 PM"))
 	fmt.Println(tm.Format("02/01/2006 15:04:05 PM"))
 
