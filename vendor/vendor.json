@@ -45,6 +45,24 @@
 			"revisionTime": "2017-03-24T13:54:48Z"
 		},
 		{
+			"checksumSHA1": "lpY1B/DbAUwhfO41QIfWjlp08Ig=",
+			"path": "github.com/afex/hystrix-go/hystrix",
+			"revision": "fa1af6a1f4f56e0e50d427fe901cd604d8c6fb8a",
+			"revisionTime": "2018-05-02T00:45:56Z"
+		},
+		{
+			"checksumSHA1": "+xellyeZ+r6kCejQ4e7PHCUcHTg=",
+			"path": "github.com/afex/hystrix-go/hystrix/metric_collector",
+			"revision": "fa1af6a1f4f56e0e50d427fe901cd604d8c6fb8a",
+			"revisionTime": "2018-05-02T00:45:56Z"
+		},
+		{
+			"checksumSHA1": "G+UVDKfmO+mYXiWChE8Pw7fnmEQ=",
+			"path": "github.com/afex/hystrix-go/hystrix/rolling",
+			"revision": "fa1af6a1f4f56e0e50d427fe901cd604d8c6fb8a",
+			"revisionTime": "2018-05-02T00:45:56Z"
+		},
+		{
 			"checksumSHA1": "2rWSos1D+xqNSGkvEMOG3pntod8=",
 			"path": "github.com/andybalholm/cascadia",
 			"revision": "349dd0209470eabd9514242c688c403c0926d266",
@@ -600,6 +618,12 @@
 			"revisionTime": "2018-01-30T19:37:22Z"
 		},
 		{
+			"checksumSHA1": "+RPbt/bqx8qmTbdc2bL0cjCbVNg=",
+			"path": "github.com/satori/go.uuid",
+			"revision": "36e9d2ebbde5e3f13ab2e25625fd453271d6522e",
+			"revisionTime": "2018-01-03T17:44:51Z"
+		},
+		{
 			"checksumSHA1": "t5W90J4d7vhrs6+LDp0BalvCZEU=",
 			"path": "github.com/sirupsen/logrus",
 			"revision": "89742aefa4b206dcf400792f3bd35b542998eb3b",
@@ -958,6 +982,12 @@
 			"path": "golang.org/x/text/unicode/norm",
 			"revision": "0605a8320aceb4207a5fb3521281e17ec2075476",
 			"revisionTime": "2018-07-08T16:53:44Z"
+		},
+		{
+			"checksumSHA1": "CCw5z0nFydNs8Gep87Bl5azBs1c=",
+			"path": "golang.org/x/time/rate",
+			"revision": "fbb02b2291d28baffd63558aa44b4b56f178d650",
+			"revisionTime": "2018-04-12T16:56:04Z"
 		},
 		{
 			"checksumSHA1": "yZXpQwF49CgXVDRlq4iq1WsD5bk=",
