@@ -351,6 +351,24 @@
 			"revisionTime": "2017-01-19T01:47:23Z"
 		},
 		{
+			"checksumSHA1": "56KnoNljNo+U4wANPAtA7BjKp74=",
+			"path": "github.com/google/gops/agent",
+			"revision": "f341a40f99ec27eb59f219922de4c5f8369251a1",
+			"revisionTime": "2018-09-03T07:25:10Z"
+		},
+		{
+			"checksumSHA1": "IHhl++BLcahFwVc5dPiuYTzlHOM=",
+			"path": "github.com/google/gops/internal",
+			"revision": "f341a40f99ec27eb59f219922de4c5f8369251a1",
+			"revisionTime": "2018-09-03T07:25:10Z"
+		},
+		{
+			"checksumSHA1": "fuGRPQ5xuU6c/EYV/ozCVx3PsL0=",
+			"path": "github.com/google/gops/signal",
+			"revision": "f341a40f99ec27eb59f219922de4c5f8369251a1",
+			"revisionTime": "2018-09-03T07:25:10Z"
+		},
+		{
 			"checksumSHA1": "+uvL6lrIFyv9OZ9OxIGBYR469eU=",
 			"path": "github.com/gopherjs/gopherjs/js",
 			"revision": "2b1d432c8a82c9bff0b0baffaeb3ec6e92974112",
@@ -438,6 +456,13 @@
 			"path": "github.com/julienschmidt/httprouter",
 			"revision": "348b672cd90d8190f8240323e372ecd1e66b59dc",
 			"revisionTime": "2018-07-15T16:18:54Z"
+		},
+		{
+			"checksumSHA1": "dL5YO2zqgZ1nqLas0RUbVeSslHQ=",
+			"origin": "github.com/google/gops/vendor/github.com/kardianos/osext",
+			"path": "github.com/kardianos/osext",
+			"revision": "f341a40f99ec27eb59f219922de4c5f8369251a1",
+			"revisionTime": "2018-09-03T07:25:10Z"
 		},
 		{
 			"checksumSHA1": "ANkGBsAD9zk4mpxTWb7v9Eaxyjc=",
@@ -934,6 +959,12 @@
 			"path": "golang.org/x/sys/unix",
 			"revision": "2d684516a8861da43017284349b7e303e809ac21",
 			"revisionTime": "2018-05-16T10:03:07Z"
+		},
+		{
+			"checksumSHA1": "apLcjhTfa/nKhpXTXjpfIZxVTKQ=",
+			"path": "golang.org/x/sys/windows",
+			"revision": "11551d06cbcc94edc80a0facaccbda56473c19c1",
+			"revisionTime": "2018-08-23T14:12:18Z"
 		},
 		{
 			"checksumSHA1": "Mr4ur60bgQJnQFfJY0dGtwWwMPE=",
